@@ -1,0 +1,115 @@
+#header {
+	background-color: white;
+	text-align:center;
+	height:75px;
+	
+}
+#header-izquierda{
+	float: left;
+	height: 100px
+	
+
+}
+#imagen-header-logo{
+	width: 50px;
+	height: 50px;
+	position:absolute
+	
+
+
+}
+#texto-header{
+	float: left;
+	font-size: x-large;
+	font-family: cursive;
+	text-align: left;
+	
+}
+#menu{
+	float: right;
+}
+#menu ul{
+	list-style-type: none;
+   	text-align: center;
+}
+#menu  li {
+	display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+#main {
+	height: 1000px;
+}
+
+.main-superior{
+	background-image: url("C:/Users/Adrian/Desktop/HTML/Nueva carpeta/imagenes/columna.jpg");  
+   background-size: cover;
+   height: 50%;
+   width: 100% ;
+   text-align: right ;
+   -webkit-filter: contrast(50%);
+	
+
+}
+
+#letras-main{
+	padding-right: 60px;
+	padding-top: 100px;
+
+}
+
+#titulo-main{
+
+	font-size: 48pt;
+	font-family: sans-serif;
+	color:  black;	
+		
+
+}
+
+
+.main-inferior{
+	background-image: url("C:/Users/Adrian/Desktop/HTML/Nueva carpeta/imagenes/ocuridad.jpg");  
+   background-size: cover;
+   height: 50%;
+   width: 100% ;
+   text-align: right ;
+   position: relative;
+	
+
+}
+
+#logo-inferior{
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);	
+
+}
+
+#texto-inferior{
+	padding-right: 60px;
+	padding-top: 250px;
+}
+
+.estilo-contacto{
+	color: white;
+}
+
+
+#footer{
+	clear:both;
+	text-align:center;
+	padding:5px;
+	background-color: black;
+	height: 150px;
+	color: white;
+	vertical-align: middle;	
+	 display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
